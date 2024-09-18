@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <h1>My Image Gallery</h1>
+
+    <!-- Add your uploaded images below -->
+    <img src="1.jpg" alt="Description of image 1">
+    <img src="2.jpg" alt="Description of image 2">
+    <img src="3.jpg" alt="Description of image 3">
+    <img src="4.jpg" alt="Description of image 4">
+    <img src="5.jpg" alt="Description of image 5">
+    <img src="6.jpg" alt="Description of image 6">
+    <img src="7.jpg" alt="Description of image 7">
+    <img src="8.jpg" alt="Description of image 8">
+    <img src="9.jpg" alt="Description of image 9">
+    <img src="10.jpg" alt="Description of image 10">
+    <img src="11.jpg" alt="Description of image 11">
+    <img src="12.jpg" alt="Description of image 12">
+    <img src="13.jpg" alt="Description of image 13">
+
+</body>
+</html>
 
