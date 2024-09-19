@@ -57,13 +57,6 @@
         nav a:hover::after {
             width: 100%;
         }
-        .test {
-    width: 100px;
-    height: 100px;
-    background: url('images/7.jpg') no-repeat center center;
-}
-<div class="test"></div>
-
         .hero {
             position: relative;
             height: 100vh;
@@ -307,34 +300,34 @@
         <p>Ik ben een professionele muurschilder met een passie voor het transformeren van ruimtes. Met elke penseelstreek breng ik kleur en leven op de muren, en verander ik gewone kamers in levendige en uitnodigende omgevingen. Mijn werk omvat zorgvuldige voorbereiding, vakkundige toepassing en oog voor detail, zodat elk project wordt voltooid volgens de hoogste standaard. Ik geniet ervan om te werken met verschillende kleuren, texturen en afwerkingen, en ik ben trots op het creëren van resultaten die de verwachtingen van mijn klanten overtreffen. Of het nu gaat om een woning, een commerciële ruimte of een uniek muurschilderij, ik zet me in voor het leveren van kwaliteitswerk en een prachtig eindresultaat.</p>
     </div>
 
-  <div id="portfolio" class="section">
-    <h2>Portfolio</h2>
-    <p>Hier zijn enkele van mijn recente werken en projecten.</p>
-    <div class="gallery-images">
-        <a href="#lightbox1"><img src="images/1.jpg" alt="Example Picture 1"></a>
-        <a href="#lightbox2"><img src="images/2.jpg" alt="Example Picture 2"></a>
-        <a href="#lightbox3"><img src="images/3.jpg" alt="Example Picture 3"></a>
-        <a href="#lightbox4"><img src="images/4.jpg" alt="Example Picture 4"></a>
-        <a href="#lightbox5"><img src="images/5.jpg" alt="Example Picture 5"></a>
-        <a href="#lightbox6"><img src="images/6.jpg" alt="Example Picture 6"></a>
-        <a href="#lightbox7"><img src="images/7.jpg" alt="Example Picture 7"></a>
-        <a href="#lightbox8"><img src="images/8.jpg" alt="Example Picture 8"></a>
-        <a href="#lightbox9"><img src="images/9.jpg" alt="Example Picture 9"></a>
-        <a href="#lightbox10"><img src="images/10.jpg" alt="Example Picture 10"></a>
-        <a href="#lightbox11"><img src="images/11.jpg" alt="Example Picture 11"></a>
-        <a href="#lightbox12"><img src="images/12.jpg" alt="Example Picture 12"></a>
+    <div id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <p>Hier zijn enkele van mijn recente werken en projecten.</p>
+        <div class="gallery-images">
+            <a href="#lightbox1"><img src="images/1.jpg" alt="Example Picture 1"></a>
+            <a href="#lightbox2"><img src="images/2.jpg" alt="Example Picture 2"></a>
+            <a href="#lightbox3"><img src="images/3.jpg" alt="Example Picture 3"></a>
+            <a href="#lightbox4"><img src="images/4.jpg" alt="Example Picture 4"></a>
+            <a href="#lightbox5"><img src="images/5.jpg" alt="Example Picture 5"></a>
+            <a href="#lightbox6"><img src="images/6.jpg" alt="Example Picture 6"></a>
+            <a href="#lightbox7"><img src="images/7.jpg" alt="Example Picture 7"></a>
+            <a href="#lightbox8"><img src="images/8.jpg" alt="Example Picture 8"></a>
+            <a href="#lightbox9"><img src="images/9.jpg" alt="Example Picture 9"></a>
+            <a href="#lightbox10"><img src="images/10.jpg" alt="Example Picture 10"></a>
+            <a href="#lightbox11"><img src="images/11.jpg" alt="Example Picture 11"></a>
+            <a href="#lightbox12"><img src="images/12.jpg" alt="Example Picture 12"></a>
+        </div>
     </div>
-</div>
 
-<!-- Lightbox -->
-<div id="lightbox1" class="lightbox">
-    <a href="#" class="lightbox-close">&times;</a>
-    <img src="images/1.jpg" alt="Example Picture 1">
-</div>
-<div id="lightbox2" class="lightbox">
-    <a href="#" class="lightbox-close">&times;</a>
-    <img src="images/2.jpg" alt="Example Picture 2">
-</div>
+    <!-- Lightbox -->
+    <div id="lightbox1" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <img src="images/1.jpg" alt="Example Picture 1">
+    </div>
+    <div id="lightbox2" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <img src="images/2.jpg" alt="Example Picture 2">
+    </div>
     <div id="lightbox3" class="lightbox">
         <a href="#" class="lightbox-close">&times;</a>
         <img src="images/3.jpg" alt="Example Picture 3">
