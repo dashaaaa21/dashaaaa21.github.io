@@ -57,6 +57,13 @@ images 7 <!DOCTYPE html>
         nav a:hover::after {
             width: 100%;
         }
+        .test {
+    width: 100px;
+    height: 100px;
+    background: url('images/7.jpg') no-repeat center center;
+}
+<div class="test"></div>
+
         .hero {
             position: relative;
             height: 100vh;
