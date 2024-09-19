@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+images 7 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,13 +57,6 @@
         nav a:hover::after {
             width: 100%;
         }
-        .test {
-    width: 100px;
-    height: 100px;
-    background: url('images/7.jpg') no-repeat center center;
-}
-<div class="test"></div>
-
         .hero {
             position: relative;
             height: 100vh;
@@ -432,4 +425,4 @@
         });
     </script>
 </body>
-</html> де тут змінити у якій строчці щоб було на весь екран сайт
+</html>
