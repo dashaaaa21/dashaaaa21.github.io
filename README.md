@@ -60,7 +60,7 @@
         .hero {
             position: relative;
             height: 100vh;
-            background: url('walls/7.jpg') no-repeat center center/cover;
+            background: url('images/7.jpg') no-repeat center center/cover;
             color: #fff;
             display: flex;
             flex-direction: column;
