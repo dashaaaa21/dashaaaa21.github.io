@@ -7,7 +7,7 @@
     <style>
         body {
             margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Montserrat, sans-serif;
+            font-family: 'Arial', sans-serif;
             color: #333;
             background-color: #f4f4f4;
             overflow-x: hidden;
@@ -15,7 +15,7 @@
         header {
             background: #333;
             color: #fff;
-            padding: 20px;
+            padding: 20px 0;
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -91,10 +91,12 @@
             transform: translateY(0);
         }
         .section {
-            padding: 50px 20px;
+            padding: 60px 20px;
             text-align: center;
             position: relative;
             overflow: hidden;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
         }
         .section h2 {
             font-size: 3em;
@@ -116,25 +118,30 @@
             flex-wrap: wrap;
             justify-content: center;
             gap: 15px;
-            margin: 0 auto;
             padding: 20px;
         }
         .gallery-images a {
             display: inline-block;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
         }
         .gallery-images img {
-            width: 300px;
-            height: 200px;
+            width: 100%;
+            height: auto;
+            display: block;
             object-fit: cover;
             border-radius: 10px;
-            transition: transform 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease;
-            opacity: 0.8;
-            cursor: pointer;
+            transition: opacity 0.5s ease;
         }
-        .gallery-images img:hover {
-            transform: scale(1.1);
+        .gallery-images a:hover img {
+            opacity: 0.8;
+        }
+        .gallery-images a:hover {
+            transform: scale(1.05);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-            opacity: 1;
         }
         /* Lightbox styles */
         .lightbox {
